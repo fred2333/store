@@ -1,0 +1,61 @@
+body {
+	background-color: #FFFFFF;
+}
+
+table {
+	font-family: 宋体;
+	font-size: 13pt;
+	border-color: #666666;
+	top: 90px;
+	position: absolute;
+	width: 95%;
+    margin-right: 15px;
+    left: 15px;
+	margin-top: 10px;
+}
+
+td {
+	padding: 5px;
+}
+
+a {text-decoration: none; color: #016BA5;}
+a:visited {color: #018BD3;}
+a:hover {color:#FF6600; text-decoration: underline;}
+
+.trTitle {
+	color: #fff;
+	background-color: #666666;
+}
+
+.trOneLevel {
+	background-color: #DDEEFF;
+	font-weight: 900;
+}
+
+.AddOneLevel {
+	line-height: 30px;
+	position: absolute;
+	margin-left: -40%;
+	left: 50%;
+	font-weight: bold;
+	overflow: hidden;
+	width: 150px;
+	height: 38px;
+	cursor:pointer;
+}
+
+.trTwoLevel {
+	text-align: right;
+	font-size: 12pt;
+	color: blue;
+	font-weight: bold;
+}
+.pop_up {
+	position: fixed;
+	height: 380px;
+	width: 350px;
+	top: 50px;
+	left: 50%;
+	margin-left: -180px;
+	background-color: #DCDCED;
+}

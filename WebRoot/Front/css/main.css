@@ -1,0 +1,156 @@
+body{
+	margin:0;
+}
+.list {
+	position: relative;
+	width: 190px;
+	float: left;
+}
+.bodyArea {
+	position: absolute;
+    width: 1200px;
+    top: 55px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.topBar {
+	position: relative;
+	height: 30px;
+	width: auto;
+	background-color: #F0F0F0;
+}
+.mallTitle {
+	position: relative;
+	width: auto;
+	height: 100px;
+}
+
+
+.commodityArea {
+	position: relative;
+	width: auto;
+	margin-left: 190px;
+	height: 750px;
+}
+.searchArea {
+	position: relative;
+	height: 65px;
+	width: 600px;
+}
+
+.searchSelect {
+	position: absolute;
+	height: 38px;
+	width: 56px;
+	top:0px;
+	line-height: 38px;
+	text-align: center;
+	overflow: hidden;
+	background-color: white;
+	font-weight: bold;
+	color: black;
+	cursor:pointer;
+}
+
+.searchBox {
+	position: absolute;
+	border: 3px solid #FF6600;
+	width: 600px;
+	height: 38px;
+	left: 0px;
+	top: 20px;
+	background-color: white;
+}
+.searchInput {
+	position: absolute;
+	height: 32px;
+	width: 443px;
+	top: 3px;
+	font-size: 16px;
+	background:transparent;
+	border:0;
+	right: 40px;
+}
+.searchInput:focus {
+	outline:none;
+}
+
+.searchButton {
+	position: absolute;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    padding: 4px;
+    right: 0;
+	cursor:pointer;
+}
+.searchButton:hover {
+	background-color:#E9E9E9;
+}
+
+li {
+	list-style-type:none;
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+.listLayer1 {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	width: auto;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #FF9D5B;
+	cursor:pointer;
+}
+.listItem1 {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	width: auto;
+	background-color: #FFB482;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFB482;
+	border-left-color: #FFB482;
+	cursor:pointer;
+}
+.listCategory {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	width: auto;
+	font-weight: bold;
+	color: #FF0000;
+	background-color: #FFE4D2;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFE4D2;
+	border-left-color: #FFE4D2;
+}
+.listContent {
+	position: relative;
+	overflow: visible;
+}
+
+
+.listLayer2 {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	width: auto;
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 1px solid #FFDDC6;
+	cursor:pointer;
+}

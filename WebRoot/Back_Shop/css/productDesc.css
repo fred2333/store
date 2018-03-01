@@ -1,0 +1,141 @@
+body{
+	margin:0;
+}
+.bodyArea {
+	position: absolute;
+	width: 1200px;
+	top: 40px;
+	left: 50%;
+	margin-left: -600px;
+}
+.mainArea {
+	position: relative;
+	width: auto;
+	top: 10px;
+	overflow: auto;
+}
+
+
+.topBar {
+	position: relative;
+	height: 30px;
+	width: auto;
+	background-color: #F0F0F0;
+}
+.mallTitle {
+	position: relative;
+	width: auto;
+	height: auto;
+	float: left;
+}
+.tabBar {
+	position: relative;
+	height: 30px;
+	width: auto;
+	margin-left: 225px;
+	background-color: #68A9EA;
+	top: 3px;
+}
+.shopName {
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	position: absolute;
+	height: 30px;
+	left: 40%;
+	line-height: 30px;
+}
+
+.mainArea {
+	font-size: 10pt;
+	color: #404040;
+	font-family: SimSun;
+}
+
+.tab {
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 680px;
+	font-size: 10pt;
+}
+
+.tab td {
+	height: 25px;
+}
+
+.tp {
+	border: 1px solid #dcdcdc;
+	float: left;
+}
+
+.sm {
+	font-size: 16pt;
+	font-weight: 900;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+.bd {
+	border: 1px solid #dcdcdc;
+	background-color: #f5f5f5;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-left: 50px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.ulStyle {
+	list-style: none;
+}
+
+.liStyle {
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #018BD3;
+}
+
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.btn {
+	border: 0;
+	width: 142px;
+	height: 33px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: left;
+	padding-top: 1px;
+	padding-left: 32px;
+	color: #fff;
+	font-family: 黑体;
+}
+
+.editBtn1 {
+	background: url(/Horizon/Front/images/huang_2_btn.jpg) left top
+		no-repeat;
+}
+
+.editBtn2 {
+	background: url(/Horizon/Front/images/huang_1_btn.jpg) left top
+		no-repeat;
+}
+
+.delBtn1 {
+	background: url(/Horizon/Front/images/hong_2_btn.jpg) left top
+		no-repeat;
+}
+
+.delBtn2 {
+	background: url(/Horizon/Front/images/hong_1_btn.jpg) left top
+		no-repeat;
+}

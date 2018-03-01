@@ -1,0 +1,69 @@
+body{
+	margin:0;
+}
+.bodyArea {
+	position: absolute;
+	width: 1200px;
+	top: 40px;
+	left: 50%;
+	margin-left: -600px;
+}
+.mainArea {
+	position: relative;
+	width: auto;
+	top: 10px;
+	overflow: auto;
+}
+
+
+.topBar {
+	position: relative;
+	height: 30px;
+	width: auto;
+	background-color: #F0F0F0;
+}
+.mallTitle {
+	position: relative;
+	width: auto;
+	height: auto;
+	float: left;
+}
+.tabBar {
+	position: relative;
+	height: 30px;
+	width: auto;
+	margin-left: 225px;
+	background-color: #68A9EA;
+	top: 3px;
+}
+.shopName {
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	position: absolute;
+	height: 30px;
+	left: 450px;
+	line-height: 30px;
+}
+
+.tabStyle {
+	color: #FFFFFF;
+	background-color: #68A9EA;
+	position: absolute;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	left: 30px;
+	cursor:pointer
+}
+.tabStyle:hover {
+	background-color: #1D74CB;
+}
+
+iframe {
+	position: relative;
+	width: 100%;
+	border: 0;
+}
