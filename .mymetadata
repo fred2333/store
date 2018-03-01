@@ -4,7 +4,7 @@
   name="Horizon"
   id="myeclipse.1494239824849"
   context-root="/Horizon"
-  j2ee-spec="6.0"
+  j2ee-spec="7.0"
   archive="Horizon.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
